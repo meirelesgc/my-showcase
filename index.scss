@@ -1,0 +1,21 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.yellow-card {
+    min-height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-options {
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: white;
+}
