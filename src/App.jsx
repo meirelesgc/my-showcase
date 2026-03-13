@@ -2,8 +2,13 @@ import { useTranslation } from 'react-i18next';
 import './utils/i18n';
 import './App.css';
 
+import { Welcome } from './sections/Welcome';
+import { Works } from './sections/Works';
+import { Profile } from './sections/Profile';
+import { Contacts } from './sections/Contacts';
+
 function App() {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
@@ -17,21 +22,10 @@ function App() {
                 <button onClick={() => changeLanguage('fr')}>FR</button>
             </header>
 
-            <section id="welcome" className="section">
-                <h1>{t('welcome')}</h1>
-            </section>
-
-            <section id="works" className="section">
-                <h1>{t('works')}</h1>
-            </section>
-
-            <section id="profile" className="section">
-                <h1>{t('profile')}</h1>
-            </section>
-
-            <section id="contacts" className="section">
-                <h1>{t('contacts')}</h1>
-            </section>
+            <Welcome />
+            <Works />
+            <Profile />
+            <Contacts />
         </div>
     );
 }
