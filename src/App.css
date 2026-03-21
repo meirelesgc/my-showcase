@@ -141,3 +141,53 @@ h6 {
     text-transform: uppercase;
     margin-left: 0.5rem;
 }
+
+/* Adicione ao final do arquivo App.css */
+
+.welcome-hero {
+    position: relative;
+    padding: 4rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--bg-color);
+    /* Para adicionar a imagem de fundo com transparência, descomente e ajuste o caminho: */
+    /* background-image: linear-gradient(rgba(245, 245, 220, 0.8), rgba(245, 245, 220, 0.8)), url('/caminho/para/sua-imagem.jpg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+.hero-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-name-first {
+    font-size: 13vw;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: var(--accent-color);
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.hero-bio {
+    margin-top: 2rem;
+    max-width: 400px;
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.hero-name-last {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 13vw;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: var(--accent-color);
+    margin: 0;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
