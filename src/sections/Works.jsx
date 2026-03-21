@@ -5,11 +5,11 @@ export function Works() {
 
     return (
         <section id="works" className="section">
-            <h1>{t('works')}</h1>
-            <div className="card">
-                <h2 className="card-title">{t('worksProjectName')}</h2>
+            <h1 style={{ color: 'var(--text-secondary)' }}>{t('works')}</h1>
+            <div className="card" style={{ borderLeft: '4px solid var(--success-color)' }}>
+                <h2 className="card-title" style={{ color: 'var(--accent-color)' }}>{t('worksProjectName')}</h2>
                 <p className="card-text">{t('worksProjectDesc')}</p>
-                <span className="indicator">{t('worksProjectStatus')}</span>
+                <span className="indicator" style={{ backgroundColor: 'var(--border-color)', padding: '0.25rem 0.5rem', borderRadius: '4px' }}>{t('worksProjectStatus')}</span>
             </div>
         </section>
     );

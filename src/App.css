@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Space+Grotesk:wght@600;700&display=swap');
 
 :root {
-    --bg-color: #FFFFFF;
-    --text-primary: #1E293B;
-    --text-secondary: #64748B;
-    --accent-color: #0F172A;
-    --success-color: #10B981;
-    --border-color: #E2E8F0;
+    --bg-color: #F5F5DC;
+    --text-primary: #1A1C19;
+    --text-secondary: #5C6059;
+    --accent-color: #87A922;
+    --success-color: #4ADE80;
+    --border-color: #D1D1C0;
 }
 
 * {
@@ -108,4 +108,36 @@ h6 {
 
 .indicator {
     color: var(--success-color);
+}
+
+.floating-nav {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-text {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.lang-toggle-btn {
+    background-color: var(--border-color);
+    color: var(--accent-color);
+    border: none;
+    border-radius: 50px;
+    padding: 0.25rem 0.75rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
 }
