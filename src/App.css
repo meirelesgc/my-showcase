@@ -43,6 +43,8 @@ h6 {
     width: 100vw;
     overflow-y: auto;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 .section {
