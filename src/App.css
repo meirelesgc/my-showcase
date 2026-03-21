@@ -142,7 +142,6 @@ h6 {
     margin-left: 0.5rem;
 }
 
-/* Adicione ao final do arquivo App.css */
 
 .welcome-hero {
     position: relative;
@@ -150,10 +149,6 @@ h6 {
     align-items: flex-start;
     justify-content: flex-start;
     background-color: var(--bg-color);
-    /* Para adicionar a imagem de fundo com transparência, descomente e ajuste o caminho: */
-    /* background-image: linear-gradient(rgba(245, 245, 220, 0.8), rgba(245, 245, 220, 0.8)), url('/caminho/para/sua-imagem.jpg'); */
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 
 .hero-top {
@@ -190,4 +185,120 @@ h6 {
     text-transform: uppercase;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
+}
+
+.works-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.works-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 6rem 4rem;
+}
+
+.works-title {
+    color: var(--text-secondary);
+    margin-bottom: 4rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 6rem;
+    margin-bottom: 8rem;
+    align-items: flex-start;
+}
+
+.project-column-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project-column-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-column-info {
+    position: sticky;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-desc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 80%;
+}
+
+.project-date {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 6rem;
+}
+
+.project-meta {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.project-meta p {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-link {
+    align-self: flex-start;
+    background-color: transparent;
+    color: var(--text-primary);
+    border: none;
+    padding: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-link:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 968px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .project-column-info {
+        position: relative;
+        top: 0;
+    }
+
+    .works-content {
+        padding: 4rem 2rem;
+    }
+
+    .project-desc {
+        max-width: 100%;
+    }
 }
