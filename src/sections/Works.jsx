@@ -14,6 +14,20 @@ const projectsData = [
             'https://placehold.co/800x1000',
             'https://placehold.co/800x1000',
         ]
+    },
+    {
+        id: "2",
+        title: "ATELIER.M",
+        description: "Website for Parisian workshop creating custom-made pieces specializing in metal and wood work. Crafting an elegant and refined showcase for the atelier.",
+        date: "2020",
+        stack: "Next.js, Motion.dev, Prismic, Cloudflare",
+        link: "#",
+        images: [
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+        ]
     }
 ];
 
