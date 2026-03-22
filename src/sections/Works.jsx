@@ -3,10 +3,7 @@ import { useTranslation } from 'react-i18next';
 const projectsData = [
     {
         id: "1",
-        title: "ATELIER.M",
-        description: "Website for Parisian workshop creating custom-made pieces specializing in metal and wood work. Crafting an elegant and refined showcase for the atelier.",
-        date: "2020",
-        stack: "Next.js, Motion.dev, Prismic, Cloudflare",
+        translationKey: "p1",
         link: "#",
         images: [
             'https://placehold.co/800x1000',
@@ -17,10 +14,40 @@ const projectsData = [
     },
     {
         id: "2",
-        title: "ATELIER.M",
-        description: "Website for Parisian workshop creating custom-made pieces specializing in metal and wood work. Crafting an elegant and refined showcase for the atelier.",
-        date: "2020",
-        stack: "Next.js, Motion.dev, Prismic, Cloudflare",
+        translationKey: "p2",
+        link: "#",
+        images: [
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+        ]
+    },
+    {
+        id: "3",
+        translationKey: "p3",
+        link: "#",
+        images: [
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+        ]
+    },
+    {
+        id: "4",
+        translationKey: "p4",
+        link: "#",
+        images: [
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+            'https://placehold.co/800x1000',
+        ]
+    },
+    {
+        id: "5",
+        translationKey: "p5",
         link: "#",
         images: [
             'https://placehold.co/800x1000',
@@ -43,21 +70,21 @@ export function Works() {
                     <div key={project.id} className="project-grid">
                         <div className="project-column-images">
                             {project.images.map((img, index) => (
-                                <img key={index} src={img} alt={`${project.title} screenshot ${index + 1}`} />
+                                <img key={index} src={img} alt={`${t(`projects.${project.translationKey}.title`)} screenshot ${index + 1}`} />
                             ))}
                         </div>
 
                         <div className="project-column-info">
-                            <h2 className="project-title">{project.title}</h2>
-                            <p className="project-desc">{project.description}</p>
-                            <p className="project-date">{project.date}</p>
+                            <h2 className="project-title">{t(`projects.${project.translationKey}.title`)}</h2>
+                            <p className="project-desc">{t(`projects.${project.translationKey}.description`)}</p>
+                            <p className="project-date">{t(`projects.${project.translationKey}.date`)}</p>
 
                             <div className="project-meta">
-                                <p><strong>STACK</strong> {project.stack}</p>
+                                <p><strong>STACK</strong> {t(`projects.${project.translationKey}.stack`)}</p>
                             </div>
 
                             <a href={project.link} target="_blank" rel="noreferrer" className="btn project-link">
-                                VISIT ↗
+                                {t('visit')}
                             </a>
                         </div>
                     </div>
