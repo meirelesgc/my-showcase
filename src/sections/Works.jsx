@@ -7,9 +7,6 @@ const projectsData = [
         link: "#",
         images: [
             'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
         ]
     },
     {
@@ -17,9 +14,6 @@ const projectsData = [
         translationKey: "p2",
         link: "#",
         images: [
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
             'https://placehold.co/800x1000',
         ]
     },
@@ -29,9 +23,6 @@ const projectsData = [
         link: "#",
         images: [
             'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
         ]
     },
     {
@@ -40,9 +31,6 @@ const projectsData = [
         link: "#",
         images: [
             'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
         ]
     },
     {
@@ -50,9 +38,6 @@ const projectsData = [
         translationKey: "p5",
         link: "#",
         images: [
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
-            'https://placehold.co/800x1000',
             'https://placehold.co/800x1000',
         ]
     }
