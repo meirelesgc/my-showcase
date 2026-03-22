@@ -50,7 +50,19 @@ const resources = {
                     date: "Em andamento",
                     stack: "Integração de dados, Inteligência artificial"
                 }
-            }
+            },
+            profileSkillsHeading: "Habilidades & Stack",
+            profileSkills1: "Python, FastAPI, PostgreSQL, Docker",
+            profileSkills2: "LangChain, LLMs, React JS, Power BI",
+            profileSkills3: "Apache Hop, Orquestração e Integração de Dados",
+            profileValuesHeading: "Foco & Metodologia",
+            profileValues1: "Governança de Dados, Modelagem Computacional",
+            profileValues2: "Soluções baseadas em Inteligência Artificial",
+            profileValues3: "Recuperação de Informação, ETL",
+            profileRecogHeading: "Atuação Institucional",
+            profileRecog1: "Projetos na Fiocruz, Senai Cimatec e UFMG",
+            profileRecog2: "Integração de plataformas governamentais",
+            profileRecog3: "Mapeamento e análise de produção científica"
         }
     },
     en: {
@@ -101,7 +113,19 @@ const resources = {
                     date: "In progress",
                     stack: "Data integration, Artificial intelligence"
                 }
-            }
+            },
+            profileSkillsHeading: "Skills & Stack",
+            profileSkills1: "Python, FastAPI, PostgreSQL, Docker",
+            profileSkills2: "LangChain, LLMs, React JS, Power BI",
+            profileSkills3: "Apache Hop, Data Orchestration & Integration",
+            profileValuesHeading: "Focus & Methodology",
+            profileValues1: "Data Governance, Computational Modeling",
+            profileValues2: "Artificial Intelligence-based Solutions",
+            profileValues3: "Information Retrieval, ETL",
+            profileRecogHeading: "Institutional Impact",
+            profileRecog1: "Projects at Fiocruz, Senai Cimatec, and UFMG",
+            profileRecog2: "Integration of government platforms",
+            profileRecog3: "Mapping and analysis of scientific production"
         }
     },
     fr: {
@@ -152,7 +176,19 @@ const resources = {
                     date: "En cours",
                     stack: "Intégration de données, Intelligence artificielle"
                 }
-            }
+            },
+            profileSkillsHeading: "Compétences & Stack",
+            profileSkills1: "Python, FastAPI, PostgreSQL, Docker",
+            profileSkills2: "LangChain, LLMs, React JS, Power BI",
+            profileSkills3: "Apache Hop, Orchestration et intégration de données",
+            profileValuesHeading: "Objectifs & Méthodologie",
+            profileValues1: "Gouvernance des données, Modélisation informatique",
+            profileValues2: "Solutions basées sur l'Intelligence Artificielle",
+            profileValues3: "Recherche d'informations, ETL",
+            profileRecogHeading: "Impact Institutionnel",
+            profileRecog1: "Projets à la Fiocruz, Senai Cimatec et UFMG",
+            profileRecog2: "Intégration de plateformes gouvernementales",
+            profileRecog3: "Cartographie et analyse de la production scientifique"
         }
     }
 };

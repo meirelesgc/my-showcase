@@ -1,31 +1,35 @@
+import { useTranslation } from 'react-i18next';
+
 export function Profile() {
+    const { t } = useTranslation();
+
     return (
         <section id="profile" className="profile-section">
             <div className="profile-text-container">
                 <div className="profile-group">
-                    <h3 className="profile-heading">Skills & Stack</h3>
+                    <h3 className="profile-heading">{t('profileSkillsHeading')}</h3>
                     <p className="profile-text">
-                        JavaScript, HTML5/CSS3/SCSS<br />
-                        Vue/Nuxt, Svelte/SvelteKit<br />
-                        Headless CMS, Anime.js, Motion
+                        {t('profileSkills1')}<br />
+                        {t('profileSkills2')}<br />
+                        {t('profileSkills3')}
                     </p>
                 </div>
 
                 <div className="profile-group">
-                    <h3 className="profile-heading">Values & Motives</h3>
+                    <h3 className="profile-heading">{t('profileValuesHeading')}</h3>
                     <p className="profile-text">
-                        Design-driven, Interactions<br />
-                        Atomic design, Mobile first<br />
-                        Natural SEO, Accessibility
+                        {t('profileValues1')}<br />
+                        {t('profileValues2')}<br />
+                        {t('profileValues3')}
                     </p>
                 </div>
 
                 <div className="profile-group">
-                    <h3 className="profile-heading">Recognition</h3>
+                    <h3 className="profile-heading">{t('profileRecogHeading')}</h3>
                     <p className="profile-text">
-                        Awwwards - SOTD, HM, ME<br />
-                        FWA - FOTD<br />
-                        CommunicationArts
+                        {t('profileRecog1')}<br />
+                        {t('profileRecog2')}<br />
+                        {t('profileRecog3')}
                     </p>
                 </div>
             </div>
