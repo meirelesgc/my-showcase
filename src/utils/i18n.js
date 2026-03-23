@@ -4,6 +4,11 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
     pt: {
         translation: {
+            contactTitle1: "VAMOS",
+            contactTitle2: "TRABALHAR",
+            contactTitle3: "JUNTOS?",
+            contactVia: "ENTRE EM CONTATO VIA:",
+            contactEmail: "GEU_COSTA@OUTLOOK.COM",
             welcome: "Bem-vindo",
             works: "Trabalhos",
             profile: "Perfil",
@@ -67,6 +72,11 @@ const resources = {
     },
     en: {
         translation: {
+            contactTitle1: "LET'S",
+            contactTitle2: "WORK",
+            contactTitle3: "TOGETHER?",
+            contactVia: "CONTACT ME VIA:",
+            contactEmail: "GEU_COSTA@OUTLOOK.COM",
             welcome: "Welcome",
             works: "Works",
             profile: "Profile",
@@ -130,6 +140,11 @@ const resources = {
     },
     fr: {
         translation: {
+            contactTitle1: "TRAVAILLONS",
+            contactTitle2: "ENSEMBLE?",
+            contactTitle3: " ",
+            contactVia: "CONTACTEZ-MOI VIA:",
+            contactEmail: "GEU_COSTA@OUTLOOK.COM",
             welcome: "Bienvenue",
             works: "Travaux",
             profile: "Profil",
